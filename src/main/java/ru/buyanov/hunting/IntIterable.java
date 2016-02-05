@@ -8,7 +8,7 @@ import java.util.Iterator;
 public class IntIterable implements Iterable<Integer> {
     int[] backed;
 
-    int index = 0;
+    private int index = 0;
 
     public IntIterable(int[] backed) {
         this.backed = backed;
